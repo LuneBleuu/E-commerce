@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>E-Comerce</title>
+    <meta name="description" content="html">
+    <meta name="keywords" content="HTML, CSS, javascript">
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="stilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"> </script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    
+</head>
+
+
+<header id="me">
+    <div class="menu">
+        <p>TechnoCHELI</p>
+        <img class="menu-icon" src="img/logo.png">
+         <nav>
+           <ul class="list">
+             <li> <a  href="#Celulares"> Celulares</a></li>
+             <li> <a  href="#PC">PC</a></li>
+             <li> <a  href="#Hogar">Hogar</a></li>
+           </ul>
+         </nav>
+       </div>
+</header>
+
+
+<body>
+    <h1> Shooping </h1>
+    <section id="Celulares">
+        <h2>Celulares</h2>
+    <div class="contenedor">
+           <div class="contenedorcelulares">
+           <img src="img/apple.jpg">
+           <p>Apple iPhone 14 Pro Max (128 GB) - Morado oscuro <br>
+            $619.999 <br>
+            en 6x $153.294
+            </p>
+            <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button> <img src="img/ca.png" alt=""></button></a>
+           </div>
+
+           <div class="contenedorcelulares2">
+            <img src="img/dual.jpg">
+            <p>BLU G91S Dual SIM 128 GB grey 4 GB RAM <br>
+                $77.499 <br>
+                en 6x $19.161 
+            </p>
+             <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button><img src="img/ca.png" alt=""> </button> </a> 
+           </div>
+    </div>
+        </section>
+        <br>
+
+        <section id="PC">
+            <h2>PC</h2>
+        <div class="contenedor">
+           <div class="contenedorpc">
+            <img src="img/pccom.jpg">
+            <p>Pc Computadora Completa Intel I3 1tb 8gb Con Monitor Led 19 <br>
+                $94.999 <br>
+                en 6x $23.488
+            </p>
+            <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button> <img src="img/ca.png" alt=""></button></a>
+           </div>
+
+           <div class="contenedorpc2">
+            <img src="img/all.jpg">
+            <p>ALL IN ONE LITE E24 I7 <br>
+                $ 308.749 <br>
+                12 cuotas sin interés de $ 25.729,08
+            </p>
+            <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button> <img src="img/ca.png" alt=""></button></a>
+           </div>
+           </div>
+      </section>
+      <br>
+
+      <section id="Hogar">
+            <h2>Hogar</h2>
+        <div class="contenedor">
+       <div class="contenedorhogar">
+        <img src="img/hela.jpg">
+        <p>Heladera Whirlpool No Frost Xpert Inverter de 462 Lts <br>
+            $ 431.899 <br>
+            12 cuotas sin interés de $ 35.992
+        </p>
+        <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button> <img src="img/ca.png" alt=""></button></a>
+       </div>
+
+       <div class="contenedorhogar2">
+        <img src="img/cochina.jpg">
+        <p>COCINA M-GAS WHIRLPOOL WFX57DI INOX NEGRO <br>
+            $159.990 <br>
+            12 cuotas sin interés de $ 16.924
+        </p>
+        <a href="http://www.ugr.es/~pjara/D/Docen14/TR/index.htm" target="_blank"> <button> <img src="img/ca.png"></button></a>
+       </div>
+    </div>
+</section>
+<br>
+
+<section>
+    <h1>Gana tu camiseta</h1>
+    <div class="owl-carousel">
+        <div id="car"><img src="img/cc.jpg"></div>
+        <div id="carr"><img src="img/aa.jpg"></div>
+        <div id="carrr"><img src="img/bb.jpg"></div>
+        <div id="carrrr"><img src="img/dd.jpg"></div>
+
+    </div>
+
+    <div>
+        <video  controls>
+            <source src="img/arg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+</section>
+<section id="what">
+    <a href="https://wa.me/+5491122334455" target="_blank">
+        <img src="img/whatsapp.png"></a>
+  </section>
+
+  <script src="owl/jquery.min.js"></script>
+  <script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+      $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
+
+    $('.menu-icon').click(function(){
+
+      $('header nav').slideToggle();
+    })
+  </script>
+
+  <a id="up"  href="#me"> <img src="img/ban.png"> </a>
+    
+</body>
+
+
+<footer>
+    <address>
+        Luis Guillón, <a href="https://argentina.gob.ar" target="_blank"> Argentina </a>
+     </address>
+     <br>
+     <a href="https://ayelencoll.wixsite.com/ayelenassell" target="_blank"> Ayelèn Assell</a> <br>
+         <small><p> Derechos Reservados&copy; </p></small>
+         <br>
+ 
+</footer>
+</html>
